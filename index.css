@@ -1,0 +1,497 @@
+	body {
+  		font-family: 'Quicksand';
+  		overflow-x: hidden;
+  	}
+  	.land {
+  		
+  		padding-top: 13vh;
+  		padding-bottom: 14vh;
+  		height: auto;
+  		width: 100vw;
+  		background-color: #117bee;
+
+  	}
+ 
+  	.ltext {
+  		font-size: 100px;
+  		color: white;
+
+  	}
+  	.l2 {
+  		font-size: 25px;
+  		margin-top: -15px; 
+  	}
+  	.butt {
+  		display: inline-block;
+  		padding: 10px 15px 10px 15px;
+  		border:1px solid #fff;
+  		color: white;
+  		position: relative;
+  		margin-left: 4px;
+  		left: -2px;
+  		font-size: 18px;
+  		transition: 250ms;
+  		cursor: pointer;
+
+  		background-color: #117bee;
+  	}
+
+  	.lt {
+		position: relative;
+		top: -15px;  		
+  	}
+  	.base {
+  		width: 100vw;
+  		height: auto;
+  		padding-top: 10vh;
+  		padding-bottom: 10vh;
+  		background-color: #fff;
+  	}
+  	.hh {
+  		font-size: 50px;
+
+  	}
+  	
+  	.line {
+  		height: 1px;
+  		width: 0vw;
+  		background-color: #117bee;
+      transition: 800ms;
+  	}
+  	.para {
+  		font-size: 20px;
+  	}
+  	.blue {
+  		color: #117bee;
+  	}
+  	.bg-blue {
+  		background-color: #117bee;
+  	}
+  	.white {
+  		color: white;
+  	}
+  	.bg-white {
+  		background-color: white;
+  	}
+  	.up {
+  		position: relative;
+  		top: -5vh;
+  	}
+  	.b {
+  		height: 50px;
+  		width: 50px;
+  		background-color: #000;
+  		border-radius: 50%;
+  		position: relative;
+  		cursor: pointer;
+
+
+
+  	}
+  	.blue {
+  		background-color: #000;
+  	}
+  	.whte {
+  		background-color: #117bee;
+  	}
+  	.bleck {
+  		background-color: #1b1b1d;
+  	}
+  	.ble {
+  		background-color: #f1f1f1;
+  	}
+  	.yellow {
+  		background-color: #f0cf5b;
+  	}
+  	.orange {
+  		background-color: #e4664f;
+  	}
+  	.red {
+  		background-color: #811717;
+  	}
+  	.upe {
+  		position: relative;
+  		top: -10vh;
+  	}
+  	.hh {
+  		font-family: 'Quicksand'
+  	}
+  	.media {
+  		height: auto;
+  		width: 100vw;
+  		background-color: #fff;
+  		padding-top: 5vh;
+  		padding-bottom: 10vh;
+  	}
+  	.mtext {
+
+  		font-size: 100px;
+  		padding: 3vh 3vw 3vh 3vw;
+  		border: 2px solid #117bbe;
+  		color: #117bee;
+  	}
+  	.head-c {
+  		padding-top: 5vh;
+  	}
+  	.header {
+  		font-size: 30px;
+  		color: #117bee;
+  	}
+  	.te {
+  		font-size: 20px;
+  		color: #117bee;
+  		
+  	}
+  	.media-box {
+  		margin-top: 10vh;
+  	}
+  	.gg {
+  		border-right: 1px solid #117bee;
+  		padding-top: 10vh;
+  		padding-bottom: 10vh;
+  	}
+  	.g1 {
+  		border-right: none;
+  	}
+  	.butt:hover {
+  		box-shadow: inset 0px 0px 0px 35px #fff;
+  		color: #000
+  	}
+  	.buy {
+  		height: auto;
+  		width: 100vw;
+  		padding-top: 10vh;
+  		padding-bottom: 10vh;
+  	}
+  	.buy-head {
+  		font-size: 70px;
+  	}
+  	.buy-text {
+  		font-size: 20px;
+  	}
+  	.n {
+  		color: #000;
+  		border-color: #000;
+  	}
+  	.hamburger {
+  		position: fixed;
+  		margin-top: 4vh;
+  		margin-left: 2vw;
+  		z-index: 200;
+  		transition: 300ms;
+  		cursor: pointer;
+  	}
+  	.bar {
+  		height: 1px;
+  		width: 40px;
+  		background-color: #fff;
+  		position: relative;
+  		margin-top: 1vh;
+  		transition: 300ms;
+  	}
+  	.container-fluid {
+  		height: auto;
+  		padding-top: 5vh;
+  		padding-bottom: 5vh;
+  		background-color: #117bee;
+  	}
+  	.cred-text {
+  		color: #fff;
+  		font-family: 'Ubuntu';
+  		font-size: 50px;
+  	}
+  	.sidepanel {
+  		height: 100vh;
+  		position: fixed;
+  		width: 0vw;
+  		background-color: #fff;
+  		z-index: 100;
+  		transition: 300ms;
+      overflow-x: hidden;
+
+  	}
+  	.bar1--ac {
+  		transform: rotate(45deg);
+  		top: 10px;
+
+  	}
+  	.bar2--ac {
+  		opacity: 0;
+  	}
+  	.bar3--ac {
+  		transform: rotate(-45deg);
+  		top: -10px;
+  	}
+  	.side--ac {
+  		width: 23vw;
+  	}
+  	.ham--ac {
+  		margin-left: 19vw;
+  	}
+  	.bar--ac {
+  		background-color: #000;
+  	}
+    .stext-container {
+      margin-top: 13vh;
+      
+    }
+    .stext {
+      font-size: 35px;
+      text-align: center;
+      margin-top: 1vh;
+      cursor: pointer;
+    }
+    .black {
+      background-color: #000;
+    }
+    .b-5 {
+      height: 100vh;
+    } body {
+      font-family: 'Quicksand';
+      overflow-x: hidden;
+    }
+    .land {
+      
+      padding-top: 13vh;
+      padding-bottom: 14vh;
+      height: auto;
+      width: 100vw;
+      background-color: #117bee;
+
+    }
+ 
+    .ltext {
+      font-size: 100px;
+      color: white;
+
+    }
+    .l2 {
+      font-size: 25px;
+      margin-top: -15px; 
+    }
+    .butt {
+      display: inline-block;
+      padding: 10px 15px 10px 15px;
+      border:1px solid #fff;
+      color: white;
+      position: relative;
+      margin-left: 4px;
+      left: -2px;
+      font-size: 18px;
+      transition: 250ms;
+      cursor: pointer;
+
+      background-color: #117bee;
+    }
+
+    .lt {
+    position: relative;
+    top: -15px;     
+    }
+    .base {
+      width: 100vw;
+      height: auto;
+      padding-top: 10vh;
+      padding-bottom: 10vh;
+      background-color: #fff;
+    }
+    .hh {
+      font-size: 50px;
+
+    }
+    
+    .line {
+      height: 1px;
+      width: 0vw;
+      background-color: #117bee;
+      transition: 800ms;
+    }
+    .para {
+      font-size: 20px;
+    }
+    .blue {
+      color: #117bee;
+    }
+    .bg-blue {
+      background-color: #117bee;
+    }
+    .white {
+      color: white;
+    }
+    .bg-white {
+      background-color: white;
+    }
+    .up {
+      position: relative;
+      top: -5vh;
+    }
+    .b {
+      height: 50px;
+      width: 50px;
+      background-color: #000;
+      border-radius: 50%;
+      position: relative;
+      cursor: pointer;
+
+
+
+    }
+    .blue {
+      background-color: #000;
+    }
+    .whte {
+      background-color: #117bee;
+    }
+    .bleck {
+      background-color: #1b1b1d;
+    }
+    .ble {
+      background-color: #f1f1f1;
+    }
+    .yellow {
+      background-color: #f0cf5b;
+    }
+    .orange {
+      background-color: #e4664f;
+    }
+    .red {
+      background-color: #811717;
+    }
+    .upe {
+      position: relative;
+      top: -10vh;
+    }
+    .hh {
+      font-family: 'Quicksand'
+    }
+    .media {
+      height: auto;
+      width: 100vw;
+      background-color: #fff;
+      padding-top: 5vh;
+      padding-bottom: 10vh;
+    }
+    .mtext {
+
+      font-size: 100px;
+      padding: 3vh 3vw 3vh 3vw;
+      border: 2px solid #117bbe;
+      color: #117bee;
+    }
+    .head-c {
+      padding-top: 5vh;
+    }
+    .header {
+      font-size: 30px;
+      color: #117bee;
+    }
+    .te {
+      font-size: 20px;
+      color: #117bee;
+      
+    }
+    .media-box {
+      margin-top: 10vh;
+    }
+    .gg {
+      border-right: 1px solid #117bee;
+      padding-top: 10vh;
+      padding-bottom: 10vh;
+    }
+    .g1 {
+      border-right: none;
+    }
+    .butt:hover {
+      box-shadow: inset 0px 0px 0px 35px #fff;
+      color: #000
+    }
+    .buy {
+      height: auto;
+      width: 100vw;
+      padding-top: 10vh;
+      padding-bottom: 10vh;
+    }
+    .buy-head {
+      font-size: 70px;
+    }
+    .buy-text {
+      font-size: 20px;
+    }
+    .n {
+      color: #000;
+      border-color: #000;
+    }
+    .hamburger {
+      position: fixed;
+      margin-top: 4vh;
+      margin-left: 2vw;
+      z-index: 200;
+      transition: 300ms;
+      cursor: pointer;
+    }
+    .bar {
+      height: 1px;
+      width: 40px;
+      background-color: #fff;
+      position: relative;
+      margin-top: 1vh;
+      transition: 300ms;
+    }
+    .container-fluid {
+      height: auto;
+      padding-top: 5vh;
+      padding-bottom: 5vh;
+      background-color: #117bee;
+    }
+    .cred-text {
+      color: #fff;
+      font-family: 'Ubuntu';
+      font-size: 50px;
+    }
+    .sidepanel {
+      height: 100vh;
+      position: fixed;
+      width: 0vw;
+      background-color: #fff;
+      z-index: 100;
+      transition: 300ms;
+      overflow-x: hidden;
+
+    }
+    .bar1--ac {
+      transform: rotate(45deg);
+      top: 10px;
+
+    }
+    .bar2--ac {
+      opacity: 0;
+    }
+    .bar3--ac {
+      transform: rotate(-45deg);
+      top: -10px;
+    }
+    .side--ac {
+      width: 23vw;
+    }
+    .ham--ac {
+      margin-left: 19vw;
+    }
+    .bar--ac {
+      background-color: #000;
+    }
+    .stext-container {
+      margin-top: 13vh;
+      
+    }
+    .stext {
+      font-size: 35px;
+      text-align: center;
+      margin-top: 1vh;
+      cursor: pointer;
+    }
+    .black {
+      background-color: #000;
+    }
+    .b-5 {
+      height: 100vh;
+    }

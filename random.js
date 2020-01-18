@@ -1,0 +1,2 @@
+var ss = $(document).ready();
+
